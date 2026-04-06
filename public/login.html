@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feltouch KPI – Giriş</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="login-page">
+    <div class="login-card">
+      <div class="login-logo">
+        <img src="/feltouch_antrasit.png" alt="Feltouch" />
+      </div>
+
+      <div style="margin-bottom:6px;font-size:0.72rem;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.07em;text-align:center;">
+        KPI Performans Modülü
+      </div>
+
+      <div style="height:24px"></div>
+
+      <div class="form-group">
+        <label for="username">Kullanıcı Adı</label>
+        <input id="username" autocomplete="username" placeholder="kullanıcı adı" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Şifre</label>
+        <input id="password" type="password" autocomplete="current-password" placeholder="••••••" />
+      </div>
+
+      <div style="height:6px"></div>
+
+      <button class="primary" id="btn-login" style="width:100%;justify-content:center;">
+        Giriş Yap
+      </button>
+
+      <div id="msg" style="margin-top:12px;text-align:center;font-size:0.8rem;color:var(--danger);min-height:18px;"></div>
+    </div>
+
+    <div style="margin-top:20px;font-size:0.72rem;color:var(--text3);text-align:center;">
+      © 2026 Feltouch · KPI Modülü v1.0
+    </div>
+  </div>
+
+  <div id="toast-container"></div>
+  <script type="module" src="/js/login.js"></script>
+</body>
+</html>

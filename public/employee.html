@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feltouch KPI – Çalışan Paneli</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-left">
+      <img src="/feltouch_antrasit.png" alt="Feltouch" class="logo-img" />
+      <div class="header-sep"></div>
+      <span class="tiny">Çalışan Paneli</span>
+      <span class="pill" id="who"></span>
+      <span class="pill locked" id="lock-badge" style="display:none;">🔒 Kilitli</span>
+    </div>
+    <div class="header-right">
+      <!-- Quarter switcher -->
+      <div class="q-switcher" id="q-switcher">
+        <button class="q-btn" data-q="Q1">Q1</button>
+        <button class="q-btn" data-q="Q2">Q2</button>
+        <button class="q-btn" data-q="Q3">Q3</button>
+        <button class="q-btn" data-q="Q4">Q4</button>
+      </div>
+      <div class="header-sep"></div>
+      <button class="ghost sm" id="btn-refresh">↺ Yenile</button>
+      <button class="ghost sm" id="btn-logout">Çıkış</button>
+    </div>
+  </header>
+
+  <div class="page-content">
+
+    <!-- ── Score Row ── -->
+    <div class="score-grid" id="score-grid">
+      <div class="score-card accent">
+        <div class="label">Çeyrek Skoru</div>
+        <div class="value mono" id="q-score">–</div>
+        <div class="sub" id="q-label">Yükleniyor…</div>
+      </div>
+      <div class="score-card">
+        <div class="label">H1 Ortalama</div>
+        <div class="value mono" id="h1-score">–</div>
+        <div class="sub">Q1 + Q2 ortalama</div>
+      </div>
+      <div class="score-card">
+        <div class="label">H2 Ortalama</div>
+        <div class="value mono" id="h2-score">–</div>
+        <div class="sub">Q3 + Q4 ortalama</div>
+      </div>
+      <div class="score-card success-card">
+        <div class="label">Yıllık Net Bonus</div>
+        <div class="value mono" id="bonus-annual" style="font-size:1.3rem;">–</div>
+        <div class="sub" id="bonus-detail">–</div>
+      </div>
+    </div>
+
+    <!-- ── KPI Breakdown ── -->
+    <div class="kpi-grid" id="kpi-grid">
+      <!-- filled by JS -->
+    </div>
+
+    <!-- ── Goals Table ── -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Hedef Detayları</h2>
+        <div class="small" id="goal-count"></div>
+      </div>
+
+      <!-- Filters -->
+      <div class="toolbar">
+        <input id="f-search" placeholder="🔍 Konu veya kategori ara…" style="min-width:200px;" />
+        <select id="f-kpi" style="width:auto;">
+          <option value="">Tüm KPI'lar</option>
+          <option value="0">KPI Atanmamış</option>
+          <option value="1">KPI 1</option>
+          <option value="2">KPI 2</option>
+          <option value="3">KPI 3</option>
+          <option value="4">KPI 4</option>
+          <option value="5">KPI 5</option>
+        </select>
+        <select id="f-status" style="width:auto;">
+          <option value="">Tüm Durumlar</option>
+          <option value="Planlandı">Planlandı</option>
+          <option value="Devam Ediyor">Devam Ediyor</option>
+          <option value="Tamamlandı">Tamamlandı</option>
+          <option value="İptal">İptal</option>
+        </select>
+        <label style="display:flex;align-items:center;gap:6px;font-size:0.8rem;cursor:pointer;white-space:nowrap;">
+          <input type="checkbox" id="f-active" style="width:auto;" />
+          Sadece bu çeyrekte aktif
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table id="goals-table">
+          <thead>
+            <tr>
+              <th style="width:32px;">KPI</th>
+              <th>Kategori / Konu</th>
+              <th style="width:80px;">Aktif Çeyrekler</th>
+              <th style="width:72px;">Hedef</th>
+              <th style="width:90px;">Gerçekleşen</th>
+              <th style="width:64px;">Başarı</th>
+              <th style="width:130px;">Durum</th>
+              <th style="width:220px;">Kanıt (URL)</th>
+              <th style="width:180px;">Not</th>
+              <th style="width:70px;"></th>
+            </tr>
+          </thead>
+          <tbody id="goals-body">
+            <tr><td colspan="10" class="loading">Yükleniyor</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="small" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border);">
+        💡 Hedefi olmayan çeyrekler (N/A) hesaplamaya dahil edilmez. · KPI no ve hedefler moderatör tarafından atanır.
+      </div>
+    </div>
+
+  </div><!-- /page-content -->
+
+  <div id="toast-container"></div>
+  <script type="module" src="/js/employee.js"></script>
+</body>
+</html>

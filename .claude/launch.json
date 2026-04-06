@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "feltouch-kpi",
+      "runtimeExecutable": "/Users/eda/.ScreamingFrogSEOSpider/node/5.1/node/bin/node",
+      "runtimeArgs": ["server.js"],
+      "port": 3000
+    }
+  ]
+}

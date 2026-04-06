@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feltouch KPI – Moderatör</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-left">
+      <img src="/feltouch_antrasit.png" alt="Feltouch" class="logo-img" />
+      <div class="header-sep"></div>
+      <span class="tiny">Moderatör Paneli</span>
+      <span class="pill accent" id="who"></span>
+    </div>
+    <div class="header-right">
+      <a href="/api/moderator/export/summary.csv" class="btn sm">⬇ CSV İndir</a>
+      <button class="ghost sm" id="btn-refresh">↺ Yenile</button>
+      <button class="ghost sm" id="btn-logout">Çıkış</button>
+    </div>
+  </header>
+
+  <div class="page-content">
+
+    <!-- ── Team Summary ── -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Ekip Özeti</h2>
+        <div class="small">Çeyrek skorları, yarıyıl ortalamaları ve yıllık net bonus</div>
+      </div>
+      <div class="table-wrap">
+        <table id="team-table">
+          <thead>
+            <tr>
+              <th>Çalışan</th>
+              <th>Unvan</th>
+              <th class="mono center">Q1</th>
+              <th class="mono center">Q2</th>
+              <th class="mono center">Q3</th>
+              <th class="mono center">Q4</th>
+              <th class="mono center">H1</th>
+              <th class="mono center">H2</th>
+              <th class="mono right">Net Maaş</th>
+              <th class="mono right">Yıllık Net Bonus</th>
+              <th style="width:80px;"></th>
+            </tr>
+          </thead>
+          <tbody id="team-body">
+            <tr><td colspan="11" class="loading">Yükleniyor</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ── Manager Panel ── -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Yönetici – Necmi Çıran</h2>
+        <button class="ghost sm" id="btn-mgr-edit">Ağırlıkları Düzenle</button>
+      </div>
+      <div id="mgr-content" class="small muted">Yükleniyor…</div>
+    </div>
+
+    <!-- ── Employee Detail (hidden until opened) ── -->
+    <div id="detail-section" style="display:none;">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title" id="detail-title">—</h2>
+            <div class="small" id="detail-subtitle">—</div>
+          </div>
+          <div class="row gap4">
+            <!-- Quarter switcher for detail -->
+            <div class="q-switcher" id="detail-q-switcher">
+              <button class="q-btn" data-q="Q1">Q1</button>
+              <button class="q-btn" data-q="Q2">Q2</button>
+              <button class="q-btn" data-q="Q3">Q3</button>
+              <button class="q-btn" data-q="Q4">Q4</button>
+            </div>
+            <button class="ghost sm" id="btn-add-goal">+ Hedef Ekle</button>
+            <button class="ghost sm" id="btn-close-detail">✕ Kapat</button>
+          </div>
+        </div>
+
+        <!-- KPI Scores for this employee -->
+        <div class="kpi-grid" id="detail-kpi-grid" style="margin-bottom:14px;"></div>
+
+        <!-- Quarter lock controls -->
+        <div class="row" id="lock-controls" style="margin-bottom:12px;gap:6px;flex-wrap:wrap;">
+          <span class="tiny" style="margin-right:4px;">Çeyrek kilidi:</span>
+        </div>
+
+        <!-- Filter for goals -->
+        <div class="toolbar" style="margin-bottom:10px;">
+          <input id="detail-search" placeholder="🔍 Konu ara…" style="min-width:180px;" />
+          <select id="detail-f-kpi" style="width:auto;">
+            <option value="">Tüm KPI'lar</option>
+            <option value="0">Atanmamış</option>
+            <option value="1">KPI 1</option><option value="2">KPI 2</option>
+            <option value="3">KPI 3</option><option value="4">KPI 4</option>
+            <option value="5">KPI 5</option>
+          </select>
+          <select id="detail-f-cat" style="width:auto;">
+            <option value="">Tüm Kategoriler</option>
+          </select>
+        </div>
+
+        <!-- Goals Table (moderator view — shows all 4 quarter targets) -->
+        <div class="table-wrap">
+          <table id="detail-table">
+            <thead>
+              <tr>
+                <th style="width:28px;">#</th>
+                <th style="width:52px;">KPI</th>
+                <th style="width:90px;">Ölçüm</th>
+                <th style="width:130px;">Kategori</th>
+                <th>Konu / Detay</th>
+                <th class="center" colspan="4" style="background:rgba(224,156,48,0.06);border-left:1px solid var(--border2);">
+                  Hedefler (Q1 / Q2 / Q3 / Q4)
+                </th>
+                <th style="width:70px;">Gerçek</th>
+                <th style="width:90px;">Durum</th>
+                <th style="width:72px;"></th>
+              </tr>
+            </thead>
+            <tbody id="detail-body">
+              <tr><td colspan="12" class="loading">Yükleniyor</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="small" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border);">
+          💡 Hedef alanlarını doldurduğunuz çeyreklerde o satır aktif olur. Boş bıraktığınız çeyreklerde N/A sayılır ve hesaplamaya dahil edilmez.
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /page-content -->
+
+  <!-- ── Manager Weights Modal ── -->
+  <div class="modal-overlay" id="mgr-modal" style="display:none;">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Yönetici Ekip Ağırlıkları</h2>
+        <button class="modal-close" id="mgr-modal-close">✕</button>
+      </div>
+      <div class="small" style="margin-bottom:16px;">
+        Ağırlıklar toplamı 1.00 (100%) olmalıdır. Moderatör tarafından düzenlenebilir.
+      </div>
+      <div id="mgr-weights-form" class="form-row"></div>
+      <div class="modal-footer">
+        <button class="ghost" id="mgr-modal-close2">İptal</button>
+        <button class="primary" id="mgr-save">Kaydet</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Add Goal Modal ── -->
+  <div class="modal-overlay" id="add-goal-modal" style="display:none;">
+    <div class="modal" style="max-width:680px;">
+      <div class="modal-header">
+        <h2>Yeni Hedef Ekle</h2>
+        <button class="modal-close" id="add-goal-close">✕</button>
+      </div>
+
+      <div class="form-row" style="margin-bottom:12px;">
+        <div class="form-group">
+          <label>Kategori</label>
+          <input id="ag-category" placeholder="örn: Rutin İşler" />
+        </div>
+        <div class="form-group">
+          <label>KPI No</label>
+          <select id="ag-kpi">
+            <option value="">Atanmamış</option>
+            <option value="1">KPI 1</option><option value="2">KPI 2</option>
+            <option value="3">KPI 3</option><option value="4">KPI 4</option>
+            <option value="5">KPI 5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Ölçüm Tipi</label>
+          <select id="ag-measure">
+            <option value="">—</option>
+            <option value="count">Adet (count)</option>
+            <option value="ratio">Oran % (ratio)</option>
+            <option value="score">Puan (score)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Konu <span style="color:var(--danger)">*</span></label>
+        <input id="ag-topic" placeholder="Hedef konusu" />
+      </div>
+      <div class="form-group">
+        <label>Detay</label>
+        <input id="ag-detail" placeholder="İsteğe bağlı açıklama" />
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Template quick-apply -->
+      <div class="form-group">
+        <label>Hedef Dağılım Şablonu</label>
+        <div class="tpl-btns" id="tpl-btns">
+          <button type="button" class="tpl-btn" data-tpl="even">Eşit (25/25/25/25)</button>
+          <button type="button" class="tpl-btn" data-tpl="front">Öne Ağır (40/30/20/10)</button>
+          <button type="button" class="tpl-btn" data-tpl="mid">Ortaya Ağır (0/50/50/0)</button>
+          <button type="button" class="tpl-btn" data-tpl="q1">Sadece Q1</button>
+          <button type="button" class="tpl-btn" data-tpl="q2">Sadece Q2</button>
+          <button type="button" class="tpl-btn" data-tpl="q3">Sadece Q3</button>
+          <button type="button" class="tpl-btn" data-tpl="q4">Sadece Q4</button>
+          <button type="button" class="tpl-btn" data-tpl="h1">H1 (50/50/0/0)</button>
+          <button type="button" class="tpl-btn" data-tpl="h2">H2 (0/0/50/50)</button>
+        </div>
+      </div>
+
+      <div class="form-row" style="gap:10px;">
+        <div class="form-group">
+          <label>Q1 Hedef</label>
+          <input id="ag-tq1" type="number" placeholder="veya boş bırak" />
+        </div>
+        <div class="form-group">
+          <label>Q2 Hedef</label>
+          <input id="ag-tq2" type="number" placeholder="veya boş bırak" />
+        </div>
+        <div class="form-group">
+          <label>Q3 Hedef</label>
+          <input id="ag-tq3" type="number" placeholder="veya boş bırak" />
+        </div>
+        <div class="form-group">
+          <label>Q4 Hedef</label>
+          <input id="ag-tq4" type="number" placeholder="veya boş bırak" />
+        </div>
+      </div>
+
+      <div class="small" style="margin-bottom:8px;">
+        💡 Yıllık toplam hedef girip şablon uygularsanız, değerler otomatik bölünür.
+        <input type="number" id="ag-annual" placeholder="Yıllık toplam hedef (isteğe bağlı)" style="width:200px;margin-left:8px;display:inline;" />
+      </div>
+
+      <div class="modal-footer">
+        <button class="ghost" id="add-goal-cancel">İptal</button>
+        <button class="primary" id="add-goal-save">Ekle</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-container"></div>
+  <script type="module" src="/js/moderator.js"></script>
+</body>
+</html>

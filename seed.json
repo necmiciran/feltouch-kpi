@@ -1,0 +1,3342 @@
+{
+  "version": "2026.2",
+  "generated_at": "2026-03-18T11:53:50.190406Z",
+  "employees": [
+    {
+      "code": "YIGIT",
+      "name": "Yiğit Bozkurt",
+      "title": "Grafik & UX Designer",
+      "design_center": false,
+      "net_salary": 55000,
+      "annual_bonus": 50000
+    },
+    {
+      "code": "SENA",
+      "name": "Sena Duran",
+      "title": "Kurumsal İletişim Uzmanı",
+      "design_center": true,
+      "net_salary": 50000,
+      "annual_bonus": 50000
+    },
+    {
+      "code": "ASLI",
+      "name": "Aslı Kılınç",
+      "title": "Akustik Uzmanı",
+      "design_center": true,
+      "net_salary": 62500,
+      "annual_bonus": 62500
+    },
+    {
+      "code": "EMRULLAH",
+      "name": "Emrullah Ağır",
+      "title": "Fotoğraf & Video İçerik Üreticisi",
+      "design_center": true,
+      "net_salary": 75000,
+      "annual_bonus": 75000
+    },
+    {
+      "code": "CANSU",
+      "name": "Cansu Ak Tezcan",
+      "title": "İnsan Kaynakları",
+      "design_center": false,
+      "net_salary": 40000,
+      "annual_bonus": 40000
+    },
+    {
+      "code": "NECMI",
+      "name": "Necmi Çıran",
+      "title": "Yönetici",
+      "design_center": true,
+      "net_salary": 125000,
+      "annual_bonus": 125000
+    }
+  ],
+  "kpis": [
+    {
+      "employee_code": "YIGIT",
+      "kpi_no": 1,
+      "title": "Zamanında teslim oranı (%)",
+      "weight": 30,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "kpi_no": 2,
+      "title": "İçerik üretimi (adet)",
+      "weight": 25,
+      "targets": {
+        "Q1": 28,
+        "Q2": 28,
+        "Q3": 28,
+        "Q4": 28
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "kpi_no": 3,
+      "title": "Tasarım kalitesi – ilk onay oranı (%)",
+      "weight": 20,
+      "targets": {
+        "Q1": 85,
+        "Q2": 85,
+        "Q3": 85,
+        "Q4": 85
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "kpi_no": 4,
+      "title": "Dijital katkı (release/iyileştirme adet)",
+      "weight": 15,
+      "targets": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "kpi_no": 5,
+      "title": "Ekip & iş birliği (paydaş puanı 1–5)",
+      "weight": 10,
+      "targets": {
+        "Q1": 4.3,
+        "Q2": 4.3,
+        "Q3": 4.3,
+        "Q4": 4.3
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "kpi_no": 1,
+      "title": "Kritik içerik kalemleri tamamlama (%)",
+      "weight": 30,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "kpi_no": 2,
+      "title": "SEO & web görev tamamlama (%)",
+      "weight": 25,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "kpi_no": 3,
+      "title": "Sosyal medya plan uyumu (%)",
+      "weight": 20,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "kpi_no": 4,
+      "title": "Referans/Yeni ürün yayın SLA uyumu (%)",
+      "weight": 15,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "kpi_no": 5,
+      "title": "Süreç disiplini & iş birliği (1–5)",
+      "weight": 10,
+      "targets": {
+        "Q1": 4.3,
+        "Q2": 4.3,
+        "Q3": 4.3,
+        "Q4": 4.3
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "kpi_no": 1,
+      "title": "Akustik proje teslim plan uyumu (%)",
+      "weight": 30,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "kpi_no": 2,
+      "title": "Satışa dönüş (dönüşüm oranı %)",
+      "weight": 30,
+      "targets": {
+        "Q1": 25,
+        "Q2": 25,
+        "Q3": 25,
+        "Q4": 25
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "kpi_no": 3,
+      "title": "Proje kalitesi – ilk onay (%)",
+      "weight": 20,
+      "targets": {
+        "Q1": 80,
+        "Q2": 80,
+        "Q3": 80,
+        "Q4": 80
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "kpi_no": 4,
+      "title": "Ölçüm/LAB operasyon plan uyumu (%)",
+      "weight": 10,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "kpi_no": 5,
+      "title": "Teknik içerik & eğitim çıktıları (%)",
+      "weight": 10,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "kpi_no": 1,
+      "title": "Çekim paket teslim plan uyumu (%)",
+      "weight": 30,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "kpi_no": 2,
+      "title": "SLA içinde teslim (%)",
+      "weight": 20,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "kpi_no": 3,
+      "title": "Kalite – ilk onay oranı (%)",
+      "weight": 25,
+      "targets": {
+        "Q1": 85,
+        "Q2": 85,
+        "Q3": 85,
+        "Q4": 85
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "kpi_no": 4,
+      "title": "Arşiv/metadata disiplin uyumu (%)",
+      "weight": 15,
+      "targets": {
+        "Q1": 100,
+        "Q2": 100,
+        "Q3": 100,
+        "Q4": 100
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "kpi_no": 5,
+      "title": "Ekip & iş birliği (paydaş puanı 1–5)",
+      "weight": 10,
+      "targets": {
+        "Q1": 4.3,
+        "Q2": 4.3,
+        "Q3": 4.3,
+        "Q4": 4.3
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "kpi_no": 1,
+      "title": "İşe alım süreci – zamanında kapanış (%)",
+      "weight": 25,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "kpi_no": 2,
+      "title": "Onboarding – zamanında tamamlanma (%)",
+      "weight": 20,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "kpi_no": 3,
+      "title": "İK dokümantasyon & süreç doğruluk (%)",
+      "weight": 20,
+      "targets": {
+        "Q1": 95,
+        "Q2": 95,
+        "Q3": 95,
+        "Q4": 95
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "kpi_no": 4,
+      "title": "Eğitim & uyum programı (katılım/plan %)",
+      "weight": 15,
+      "targets": {
+        "Q1": 90,
+        "Q2": 90,
+        "Q3": 90,
+        "Q4": 90
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "kpi_no": 5,
+      "title": "İç müşteri memnuniyeti (1–5)",
+      "weight": 20,
+      "targets": {
+        "Q1": 4.2,
+        "Q2": 4.2,
+        "Q3": 4.2,
+        "Q4": 4.2
+      }
+    }
+  ],
+  "goals": [
+    {
+      "employee_code": "YIGIT",
+      "category": "Rutin İşler",
+      "topic": "Newsletter Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Rutin İşler",
+      "topic": "Sosyal Medya Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 40.0,
+        "Q2": 40.0,
+        "Q3": 40.0,
+        "Q4": 40.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Montaj Kılavuzu",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 25.0,
+        "Q2": 25.0,
+        "Q3": 25.0,
+        "Q4": 25.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Yeni Ürün Duyuruları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 16.0,
+        "Q2": 16.0,
+        "Q3": 16.0,
+        "Q4": 16.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Ürün Güncelleme Duyuruları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 4.0,
+        "Q2": 4.0,
+        "Q3": 4.0,
+        "Q4": 4.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Product Sheet Yeni Ürün",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Product Sheet Güncellemeleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Fiyat Listesi Yeni Ürün",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 15.0,
+        "Q2": 15.0,
+        "Q3": 15.0,
+        "Q4": 15.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Akustik Test Product Sheet Güncelleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Company Profile Güncelleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 2.0,
+        "Q2": 2.0,
+        "Q3": 2.0,
+        "Q4": 2.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Price List Güncelleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Ürün Yönetimi",
+      "topic": "Katalog Güncelleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 2.0,
+        "Q2": 2.0,
+        "Q3": 2.0,
+        "Q4": 2.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Web Sitesi Ürün Kapak Görseli",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Web Sitesi Dimensions Görseli",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Web Sitesi İçerik Görseli Düzenleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Özel Mail İmzası Tasarımları ve Uygulama",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Davetiye Tasarımları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Referans Mailing Tasarımları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Dijital Pazarlama",
+      "topic": "Pop Up Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "İK Duyuru",
+      "topic": "Yeni Personel Duyurusu",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "İK Duyuru",
+      "topic": "Yeni Personel Mail İmza",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "8.03.2026 Dünya Kadınlar Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "18.03.2026 Dünya Geri Dönüşüm Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "20 Mart Dünya Sıfır Atık Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "22 Mart Dünya Su Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "30 Mart Sıfır Atık Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "29 Ekim Cumhuriyet Bayramı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "5 Haziran Dünya Çevre Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "Christmas",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Özel Günler",
+      "topic": "Yeni Yıl",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Platform ve Bayi Destekleri",
+      "topic": "Yapı kataloğu görsel tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Platform ve Bayi Destekleri",
+      "topic": "Material Bank",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Products Broşür Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Ürün Booklet Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 8.0,
+        "Q2": 8.0,
+        "Q3": 8.0,
+        "Q4": 8.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Yarışma Özel Booklet Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Kutu Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Booklet Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Lookbook Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Company Profile Güncelleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Sertifika Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Montaj Kılavuzu Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Forma Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Künye Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Koli Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Defter Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Plaket Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Kartvizit Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Kartela Tasarımı Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Bez Çanta Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Yaka Kartı Tasarımı ve Baskısı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Basılı Materyaller",
+      "topic": "Yılbaşı Hediye Çalışmaları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Tasarım Çalışmaları",
+      "topic": "Keçe Üzeri Desen Çalışması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Tasarım Çalışmaları",
+      "topic": "Keçe Üzeri Desen Çalışması Kartelası",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Tasarım Çalışmaları",
+      "topic": "Design Box Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Tasarım Çalışmaları",
+      "topic": "Zero Felt Kartela Tasarımı - Promosyonel Materyal Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Tasarım Çalışmaları",
+      "topic": "Design Box İçeriği Baskı Materyalleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Fotoğraf ve Video Edit",
+      "topic": "AI GÖRSEL - VİDEO ÜRETİMİ",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 110.0,
+        "Q2": 110.0,
+        "Q3": 110.0,
+        "Q4": 110.0
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Fotoğraf ve Video Edit",
+      "topic": "REFERANS GÖRSEL EDIT",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Fotoğraf ve Video Edit",
+      "topic": "ÜRÜN VİDEOLARI",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Fotoğraf ve Video Edit",
+      "topic": "TABLET VİDEOLARI",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Tebrik Kartları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Pano Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Tedarikçi Formları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Logo Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Kaşe Tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Satın Alımlar",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Destek İşler",
+      "topic": "Harici Görsel Düzenlemeler",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Sunumlar",
+      "topic": "Sektörel Sunumlar",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Sunumlar",
+      "topic": "Yerel Sunumlar",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "YIGIT",
+      "category": "Sunumlar",
+      "topic": "Sunumlarda Güncellemeler",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "New Year Mailingi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "12 Aylık Newsletter Paylaşımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "17 Adet Yeni Ürün Mailingleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 17.0,
+        "Q2": 17.0,
+        "Q3": 17.0,
+        "Q4": 17.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "Orgatec 2026 Davetiye Mailingi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "Orgatec 2026Teşekkür Mailingi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "Ürün Güncelleme Mailingleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "7 Adet İngilizce Basın Duyuru ve Yayını",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 7.0,
+        "Q2": 7.0,
+        "Q3": 7.0,
+        "Q4": 7.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "7 Türkçe Basın Duyuru ve Yayını",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "8 Mart Dünya Kadınlar Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "18 Mart Dünya Geri Dönüşüm Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "22 Mart Dünya Su Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "30 Mart Dünya Sıfır Atık Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "25 Mayıs Dünya İç Mimarlar Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "5 Haziran Dünya Çevre Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "29 Haziran Endüstriyel Tasarım Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "2 Ekim Dünya Mimarlık Günü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "2 adet Yapı Kataloğu Banner / Pop-Up Paylaşımları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 2.0,
+        "Q2": 2.0,
+        "Q3": 2.0,
+        "Q4": 2.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "4 Adet Yapı Kataloğu Sosyal Medya için Ürün paylaşımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 4.0,
+        "Q2": 4.0,
+        "Q3": 4.0,
+        "Q4": 4.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "PCon güncellemelerinin bayilere duyurulması (1 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 1.0,
+        "Q2": 1.0,
+        "Q3": 1.0,
+        "Q4": 1.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "NEWSLETTER, PR ve İÇERİK ORGANİZASYONU",
+      "topic": "Basın Yansımaların Arşivlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PCON",
+      "topic": "PCON faz3 Fiyat Teklifi Alımı  ve Faz 3'nin tamamlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PCON",
+      "topic": "PCON bütün ürünlerin kontrollerinin tamamlanması (979 Adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 979.0,
+        "Q2": 979.0,
+        "Q3": 979.0,
+        "Q4": 979.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PCON",
+      "topic": "PCON kontrolleri sonrası feedbacklerin verilerek düzeltmelerinin yapılması (979 Adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 979.0,
+        "Q2": 979.0,
+        "Q3": 979.0,
+        "Q4": 979.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PCON",
+      "topic": "pCon Eğitim Organizasyonun sağlanması (pcon ile iletişim)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PCON",
+      "topic": "pCon geri bildirimlerin toplanıp iletilmesi ve çözüme kavuşturulması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "MATERIAL BANK",
+      "topic": "Material bank için yeni eklenen ürünlerin iletilmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "MATERIAL BANK",
+      "topic": "Mevcut ürün görsellerinin yenilenmesi, etkili görseller ile değiştirilmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "MATERIAL BANK",
+      "topic": "Material Bank İçin İçerin Üretilmesi (reels, linekdin paylaşımı gibi)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "MATERIAL BANK",
+      "topic": "Materiak bank tarafından gelebilecek numune stok taleplerinin karşılanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Web sitesi güncellemeleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Referans görsellerin tamamına açıklama eklenmesi Referas görsel paylaşımlarını geçmişe yönelik SEO uyumlu hale getirilmesi, düzenlenmesi (138 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 138.0,
+        "Q2": 138.0,
+        "Q3": 138.0,
+        "Q4": 138.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Websitesinde Pagelerin Tamamını SEO Uyumlu Hale Getirilmesi, Kontrollerin Yapılması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Ürünlerin Tamamının Downloads Bölümün Linklerinin Kontrolünün Gerçekleştirilmesi (88 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 88.0,
+        "Q2": 88.0,
+        "Q3": 88.0,
+        "Q4": 88.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Her Hafta 1 Adet Blog Yazısı Yazılması ve Yayınlanması (40 adet blog)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 1.0,
+        "Q2": 1.0,
+        "Q3": 1.0,
+        "Q4": 1.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "G-Translate Kullanılarak Websitesinde Türkçe İçeriklerin Düzenlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Website Anasayfa Görsellerinin Değiştirilmesi (2 defa)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Website Ürünler Sayfasındaki Görsellerin Dekupe Görseller ile Değiştirilmesi (Yapay Zeka Görsel Üretimi)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Etkinlik Yönetimi Klasör Arşivlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Ürün Siparişlerin Arşivlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Referans Proje Çekimlerinin Yayınlanması (48  Adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 48.0,
+        "Q2": 48.0,
+        "Q3": 48.0,
+        "Q4": 48.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Websitesinde Yeni Ürünler için Sayfa Oluşturulması ve Yayınlanması (yeni ürün adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ONE DRIVE , WEB SİTESİ DOWNLOAD GÜNCELLEME VE KONFİGÜRASYONU",
+      "topic": "Websitesi yeni ürünlerin Download Yüklemelerinin Gerçekleştirilmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Linkedin : Her hafta 1 içerik paylaşılması. (50 kez)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Instagram strateji ve paylaşım yapılaması.",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Instagram story (haftada 3 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 3.0,
+        "Q2": 3.0,
+        "Q3": 3.0,
+        "Q4": 3.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Instagram post (haftada 2 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 2.0,
+        "Q2": 2.0,
+        "Q3": 2.0,
+        "Q4": 2.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Instagram reels (haftada 1 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 1.0,
+        "Q2": 1.0,
+        "Q3": 1.0,
+        "Q4": 1.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Pinterest strateji ve paylaşım yapılaması.",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Pinterest kategorilerinin hazırlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Pinterest kategorilerine içerik ve fotoğrafların yüklenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "12 adet aylık ziyaretçi trafik raporu ve yorumu",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "SOSYAL MEDYA",
+      "topic": "Pinterest post (50 kez)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "YAPI KATALOĞU",
+      "topic": "Yeni ürünlerin iletilmesi, siteye eklenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "FOTOĞRAF ÇEKİMİ",
+      "topic": "Fotoğraf Boyutlarının Düzenlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "FOTOĞRAF ÇEKİMİ",
+      "topic": "Aylık 4 adet referans fotoğraf çekiminin elimizde olması.",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 4.0,
+        "Q2": 4.0,
+        "Q3": 4.0,
+        "Q4": 4.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "CRM TAKİBİ",
+      "topic": "Haftalık newsletter datalarının yüklenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "CRM TAKİBİ",
+      "topic": "XPODA üzerinden haftalık CRM girişleri ve atanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "CRM TAKİBİ",
+      "topic": "Yapı Kataloğu ve diğer Platformlardan gelen iletişim datalarının sendemail ve XPODA'ya aktarılması  (SERKAN BEY)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PAZARLAMA ÜRÜN TASARIMI",
+      "topic": "Pazarlama numunesi ürün tasarımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "PAZARLAMA ÜRÜN TASARIMI",
+      "topic": "Üniversiteler için sunum planı hazırlamak.",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Yarışma / Dernek Başvuruları ve Süreç Yönetimi",
+      "topic": "Yarışma katılım ve ödeme Süreçlerinin Yönetilmesi (3 adet) 3 yarışmadan 2 sinde ödülle dönmek.",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 3.0,
+        "Q2": 3.0,
+        "Q3": 3.0,
+        "Q4": 3.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "RAPORLAMA",
+      "topic": "Newsletter Raporları 12 aylık (format hazırırla ve rapor sistemi oluştur)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "RAPORLAMA",
+      "topic": "Pinterest Raporu (format hazırırla ve rapor sistemi oluştur)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "RAPORLAMA",
+      "topic": "Websitesi :Geri Talepler Raporu 12 aylık (ay sonunda projeler için satış ekibinden dönüş al)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "RAPORLAMA",
+      "topic": "Yapı Kataloğu:Geri Talepler Raporu 12 aylık (ay sonunda projeler için satış ekibinden dönüş al)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "RAPORLAMA",
+      "topic": "Yıllık Numune Raporu (verilen stokların takibi ve fabrikadan siparişi)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "DUYURULAR",
+      "topic": "Kurumiçi Duyuruların Paylaşılması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "DUYURULAR",
+      "topic": "Referans Proje Duyuruları",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "DUYURULAR",
+      "topic": "Basın Yansımaları Duyuruları (ay sonu toplu )",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Duvar ve Tavan Paneli Montaj Videosunun Tamamlanması (8 montaj videosu)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Aydınlatmalı Montaj Videosunun Tamamlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Askı Sistemi Montaj Videosu Tamamlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Mobilya (Arc, feltra gibi) Montaj Videosu  Tamamlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Sarkıt Aydınlatma Montaj Videosunun Tamalanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Konsept video tamamlanması (Raindrop) (5 adet konsept videosu)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 5.0,
+        "Q2": 5.0,
+        "Q3": 5.0,
+        "Q4": 5.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Çınlama ile ilgili video yapılması, (Aslı'nın sunumundaki restoran sesleri alınarak) Karşılaştırmalı Video Oluşturulması) (5 adet akustik video)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 5.0,
+        "Q2": 5.0,
+        "Q3": 5.0,
+        "Q4": 5.0
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Yakın çekim ürün tanıtım videosu yapılması (sosyal medya içerik De-vorm videoları gibi)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "Dijital Pazarlama Video Üretim Süreci",
+      "topic": "Kelvin ve DIM'leme ile İlgili Bir Video Kurgusu Yapılarak Tamamlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "FATURA TAKİP",
+      "topic": "İrsaliyelerin Arşivlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "FATURA TAKİP",
+      "topic": "Gidelerin Inoportala / Xpoda'ya işlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "FATURA TAKİP",
+      "topic": "Faturların Arşivlenmesi, Excele İşlenmesi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ÜRÜN YÖNETİMİ",
+      "topic": "Yeni ürünlerin pazarlama materyallerinin toplanması / ağırlık, pet şişe, akustik test) excel içerisinde tamamlanması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ÜRÜN YÖNETİMİ",
+      "topic": "TOPLAM PUAN",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "SENA",
+      "category": "ÜRÜN YÖNETİMİ",
+      "topic": "ORTALAMA BAŞARI YÜZDESİ",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Eksik Çizimlerin Listelenmesi (Adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Aydınlatma",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Duvar panel",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Tavan panel",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Cladding",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Hanging",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Furniture",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "2D Çizimler",
+      "topic": "Pcon proje süreçleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Akustik Ölçüm Organizasyon ve Takip (LAB)",
+      "topic": "50 adet ölçüm",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Akustik Ölçüm Organizasyon ve Takip (LAB)",
+      "topic": "Ölçüm ekipmanı temini ve 5 adet akustik ölçüm",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Etkinlik",
+      "topic": "10 üniversite sunumu",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Etkinlik",
+      "topic": "25 5 to 7 etkinliğine katılım",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Etkinlik",
+      "topic": "2 fuar ziyareti",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Eğitim",
+      "topic": "Müfrefat belirleme 6 ayrı sunum",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Eğitim",
+      "topic": "Kurum içi sunum organizasyonu",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Eğitim",
+      "topic": "Bayilere akustik eğitim (10 bayi) ürün üzerinden soru cevap",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Eğitim",
+      "topic": "Akustiği Görselleştirme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Eğitim",
+      "topic": "Dialux eğitimi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Eğitim",
+      "topic": "Sektörel Akustik Sunum (6)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Satış Projeleri",
+      "topic": "5 adet proje modellemesi yurtdışı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Satış Projeleri",
+      "topic": "21 adet proje modellemesi yurtiçi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Satış Projeleri",
+      "topic": "%10 satış hedefi (3 satış)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Satış Projeleri",
+      "topic": "26 keşif ziyareti",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "İçerik Üretimi",
+      "topic": "Sosyal Medya 20 konu başlığı belirleme",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "İçerik Üretimi",
+      "topic": "Web Sitesi Knowledge Bölümü",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "İçerik Üretimi",
+      "topic": "Akustik Katalog Revizyon (Result Summary)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "İçerik Üretimi",
+      "topic": "Podcast Yayınlarında Teknik Destek (20 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Akademik Yayın",
+      "topic": "Tezden Makale Çıkarılması",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "Akademik Yayın",
+      "topic": "Yurtdışında etkinlik katılımı",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "ürün Siparişleri ve sistem takipleri",
+      "topic": "Pzr ürün talep fişi",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "ürün Siparişleri ve sistem takipleri",
+      "topic": "Sevk irsaliyesi eksiksiz",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "ürün Siparişleri ve sistem takipleri",
+      "topic": "İnoportal görev ve masraf girişleri",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "ASLI",
+      "category": "tasarım merkezi",
+      "topic": "Tasarım merkezi proje kartı oluşturma (5 adet)",
+      "detail": "",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Referans Projeler",
+      "topic": "Referans proje fotoğraf çekimi",
+      "detail": "Proje teslimi sonrası fotoğraf seti",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 24.0,
+        "Q2": 24.0,
+        "Q3": 24.0,
+        "Q4": 24.0
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Referans Projeler",
+      "topic": "Referans proje video çekimi",
+      "detail": "1–2 dk özet + detay planlar",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 12.0,
+        "Q2": 12.0,
+        "Q3": 12.0,
+        "Q4": 12.0
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Yeni Ürünler",
+      "topic": "Yeni ürün fotoğraf çekimi",
+      "detail": "Her yeni ürün için stüdyo seti",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 40.0,
+        "Q2": 40.0,
+        "Q3": 40.0,
+        "Q4": 40.0
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Yeni Ürünler",
+      "topic": "Yeni ürün video çekimi",
+      "detail": "Ürün tanıtım reels/short",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 24.0,
+        "Q2": 24.0,
+        "Q3": 24.0,
+        "Q4": 24.0
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Sarfiyat",
+      "topic": "Sarfiyat ürün çekimleri",
+      "detail": "Kartela/aksesuar/sarf setleri",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 60.0,
+        "Q2": 60.0,
+        "Q3": 60.0,
+        "Q4": 60.0
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Montaj",
+      "topic": "Montaj süreci video çekimi",
+      "detail": "Kurulum adımlarını gösteren video",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": 24.0,
+        "Q2": 24.0,
+        "Q3": 24.0,
+        "Q4": 24.0
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Arşiv",
+      "topic": "Arşiv & metadata tamlığı (%)",
+      "detail": "Dosya isim standardı + klasör",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "EMRULLAH",
+      "category": "Kalite",
+      "topic": "İlk onay oranı (%)",
+      "detail": "Edit/revizyon yönetimi",
+      "kpi_no": null,
+      "measure_type": null,
+      "targets": {
+        "Q1": null,
+        "Q2": null,
+        "Q3": null,
+        "Q4": null
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "İşe Alım",
+      "topic": "Açık pozisyon kapatma süresi",
+      "detail": "Pozisyon başına ortalama kapanış süresi gün",
+      "kpi_no": 1,
+      "measure_type": "count",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "İşe Alım",
+      "topic": "Aday havuzu oluşturma",
+      "detail": "Pozisyon başına nitelikli aday sayısı",
+      "kpi_no": 2,
+      "measure_type": "count",
+      "targets": {
+        "Q1": 30.0,
+        "Q2": 30.0,
+        "Q3": 30.0,
+        "Q4": 30.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "İşe Alım",
+      "topic": "İşe alım başarı oranı",
+      "detail": "Deneme süresini tamamlayan yeni çalışan oranı (%)",
+      "kpi_no": 3,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Çalışan İşe Giriş Süreci",
+      "topic": "İşe giriş işlemlerinin tamamlanma oranı",
+      "detail": "Sözleşme, SGK, Inoportal kayıtlarının eksiksiz tamamlanması (%)",
+      "kpi_no": 4,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "PDKS / Devam Takibi",
+      "topic": "PDKS veri doğruluğu",
+      "detail": "Hatalı kayıt oranı / aylık kontrol",
+      "kpi_no": 5,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 8.0,
+        "Q2": 8.0,
+        "Q3": 8.0,
+        "Q4": 8.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Yasal Süreçler",
+      "topic": "İŞKUR çizelgeleri uyum oranı",
+      "detail": "Yasal bildirimlerin zamanında yapılma oranı (%)",
+      "kpi_no": 6,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Onboarding",
+      "topic": "Onboarding süreci tamamlanma oranı",
+      "detail": "İlk 30 gün checklist tamamlanma oranı (%)",
+      "kpi_no": 7,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Özlük",
+      "topic": "Özlük dosyası tamlık oranı",
+      "detail": "Eksiksiz belge oranı (%) ( Ayşenur Hanım evraklar onda )",
+      "kpi_no": 8,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Eğitim",
+      "topic": "Eğitim planı gerçekleşme oranı",
+      "detail": "Planlanan eğitimlerin çeyrek bazlı  gerçekleşme yüzdesi (%)",
+      "kpi_no": 9,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Çalışan Bağlılığı",
+      "topic": "Çalışan memnuniyet skoru",
+      "detail": "Yıllık anket menuniyet %",
+      "kpi_no": 10,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Personel Devir Oranı",
+      "topic": "Turnover Rate",
+      "detail": "Yıllık ayrılan çalışan %",
+      "kpi_no": 11,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Eğitim Etkinliği",
+      "topic": "Eğitim sonrası performans gelişimi",
+      "detail": "Eğitim değerlendirme %",
+      "kpi_no": 12,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Tasarım Merkezi",
+      "topic": "DGS Raporunun Hazırlanması",
+      "detail": "Rapor eksiksizlik oranı %",
+      "kpi_no": 13,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "Proje Yönetimi",
+      "topic": "KOSGEB, Ticaret Bakanlığı proje yönetimi",
+      "detail": "Şirkete kazandırılan hibe tutarı (Ayşenur Hanım)",
+      "kpi_no": 14,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    },
+    {
+      "employee_code": "CANSU",
+      "category": "KVKK",
+      "topic": "KVKK uyum ve dokümantasyon yönetimi",
+      "detail": "KVKK doküman güncellik oranı, imha süreçlerinin zamanında tamamlanması ve VERBİS kayıtlarının güncellik oranı (%) (Ayşenur Hanım",
+      "kpi_no": 15,
+      "measure_type": "ratio",
+      "targets": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 0.0
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "moderator",
+      "password": "change-me",
+      "role": "moderator",
+      "employee_code": null
+    },
+    {
+      "username": "yigit",
+      "password": "change-me",
+      "role": "employee",
+      "employee_code": "YIGIT"
+    },
+    {
+      "username": "sena",
+      "password": "change-me",
+      "role": "employee",
+      "employee_code": "SENA"
+    },
+    {
+      "username": "asli",
+      "password": "change-me",
+      "role": "employee",
+      "employee_code": "ASLI"
+    },
+    {
+      "username": "emrullah",
+      "password": "change-me",
+      "role": "employee",
+      "employee_code": "EMRULLAH"
+    },
+    {
+      "username": "cansu",
+      "password": "change-me",
+      "role": "employee",
+      "employee_code": "CANSU"
+    }
+  ],
+  "manager_weights": {
+    "YIGIT": 0.3,
+    "SENA": 0.3,
+    "ASLI": 0.25,
+    "EMRULLAH": 0.15
+  }
+}
