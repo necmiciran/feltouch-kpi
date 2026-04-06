@@ -5,7 +5,7 @@
   "description": "Feltouch KPI Modülü",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node seed.js && node server.js",
     "seed": "node seed.js",
     "reseed": "node -e \"require('fs').existsSync('kpi.db') && require('fs').unlinkSync('kpi.db')\" && node seed.js"
   },
